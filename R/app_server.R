@@ -5,7 +5,7 @@
 #' @import shiny
 #' @noRd
 app_server <- function(input, output, session) {
-  data_path <- system.file("extdata", "small_example.rds", package = "MetaboliteUterusCancerAtlas")
+  data_path <- system.file("extdata", "small_example.rds", package = "MetaboliteEndometrialCancerAtlas")
   dataset <- readRDS(data_path)
   data_reactive <- reactiveVal(dataset)
 
