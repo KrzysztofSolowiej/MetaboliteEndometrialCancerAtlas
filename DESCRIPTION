@@ -1,0 +1,19 @@
+Package: MetaboliteEndometrialCancerAtlas
+Title: Metabolite Endometrial Cancer Atlas
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Krzysztof",
+           family = "Solowiej",
+           role = c("aut", "cre"),
+           email = "krzysztof.solowiej@umb.edu.pl")
+Description: MetaboliteEndometrialCancerAtlas is a shiny app designed to explore content of research papers concerning uterus cancer.
+License: MIT + file LICENSE
+Imports: 
+    config,
+    DT,
+    golem,
+    pkgload,
+    shiny
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
